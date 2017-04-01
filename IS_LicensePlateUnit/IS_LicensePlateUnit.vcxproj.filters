@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Common\log4z.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoProc.cpp">
+      <Filter>VideoProc</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStruct.cpp">
+      <Filter>DataStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="LicensePlateUnit.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamProc.cpp">
+      <Filter>ParamProc</Filter>
+    </ClCompile>
+    <ClCompile Include="NetClient\NetClient.cpp">
+      <Filter>NetClient</Filter>
+    </ClCompile>
+    <ClCompile Include="NetClient\DataCache.cpp">
+      <Filter>NetClient</Filter>
+    </ClCompile>
+    <ClCompile Include="LicensePlate\LicenseProc.cpp">
+      <Filter>LicensePlate</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\log4z.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StopWatch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStruct.h">
+      <Filter>DataStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="LicensePlateUnit.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamProc.h">
+      <Filter>ParamProc</Filter>
+    </ClInclude>
+    <ClInclude Include="NetClient\RabbitMQClient.h">
+      <Filter>NetClient</Filter>
+    </ClInclude>
+    <ClInclude Include="NetClient\NetClient.h">
+      <Filter>NetClient</Filter>
+    </ClInclude>
+    <ClInclude Include="NetClient\DataCache.h">
+      <Filter>NetClient</Filter>
+    </ClInclude>
+    <ClInclude Include="LicensePlate\VzPlayerLib.h">
+      <Filter>LicensePlate</Filter>
+    </ClInclude>
+    <ClInclude Include="LicensePlate\LicenseProc.h">
+      <Filter>LicensePlate</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoProc.h">
+      <Filter>VideoProc</Filter>
+    </ClInclude>
+    <ClInclude Include="LicensePlate\LPKernelEx.h">
+      <Filter>LicensePlate</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NetClient">
+      <UniqueIdentifier>{9407ca99-653d-418a-8143-29509e13f5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{65b74c13-655e-4e60-824c-45ec6d6fd366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{e6938760-9487-42e3-a7aa-37b4e549366c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VideoProc">
+      <UniqueIdentifier>{b3218bf0-da2b-4d0c-a4aa-c91e7e6330fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStruct">
+      <UniqueIdentifier>{0a20aa4e-2483-4d7c-b526-067f2e7f164f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParamProc">
+      <UniqueIdentifier>{d16703f0-d18d-4f24-9cbe-e851c8602384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LicensePlate">
+      <UniqueIdentifier>{ef339275-5bbf-421b-99a6-c516021f10ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="LicensePlate\LPKernelEx.lib">
+      <Filter>LicensePlate</Filter>
+    </Library>
+    <Library Include="LicensePlate\VzPlayer.lib">
+      <Filter>LicensePlate</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
